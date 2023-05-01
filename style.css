@@ -1,0 +1,207 @@
+body {
+  background: grey;
+  background-size: cover;
+  -webkit-animation: bg-color 5s infintite;
+  animation: bg-color 15s infinite;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  /* font-family: "Poppins", sans-serif; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-image: linear-gradient(to top left, #6A85B6,#5078bd ); */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.container {
+  /* border: 5px solid rgb(14, 14, 14); */
+  margin: 2cm;
+  height: 8cm;
+  width: 550px;
+  border-radius: 1cm;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom right, #209561, #009efd);
+  box-shadow: 0px 6px 12px rgb(12, 12, 12);
+}
+
+.showTime {
+  height: 6.5cm;
+  width: 500px;
+  border-radius: 1cm;
+  box-shadow: 0px 6px 12px rgb(12, 12, 12);
+  color: rgb(35, 30, 30);
+  /* text-shadow: 0px 2px 4px; */
+  text-align: center;
+  font-size: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom right, #6076ab, #f68084);
+}
+p {
+  position: absolute;
+  bottom: 500px;
+  font-weight: 600;
+  font-size: 70px;
+  font-family: "Bruno Ace SC", cursive;
+}
+
+@-webkit-keyframes bg-color {
+  14.3% {
+    background-color: #c77df3;
+  }
+  28.6% {
+    background-color: #8a2be2;
+  }
+  42.9% {
+    background-color: #0000ff;
+  }
+  57.2% {
+    background-color: #00ff00;
+  }
+  71.5% {
+    background-color: #ffdd00;
+  }
+  85.8% {
+    background-color: #ff7700;
+  }
+  100% {
+    background-color: #ff0000;
+  }
+}
+
+@keyframes bg-color {
+  14.3% {
+    background-color: #c77df3;
+  }
+  28.6% {
+    background-color: #8a2be2;
+  }
+  42.9% {
+    background-color: #0000ff;
+  }
+  57.2% {
+    background-color: #00ff00;
+  }
+  71.5% {
+    background-color: #ffdd00;
+  }
+  85.8% {
+    background-color: #ff7700;
+  }
+  100% {
+    background-color: #ff0000;
+  }
+}
+
+.Matt {
+  background-image: url(http://www.manuelgraphics.com/wp-content/uploads/2014/08/Verus-Arts-Banner.png);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-family: Arial;
+  margin-top: 100px;
+  margin-left: 600px;
+  color: white;
+  font-size: 82px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 360px) {
+  p {
+    font-size: 30px;
+    position: absolute;
+    bottom: 550px;
+  }
+  .showTime {
+    height: 3cm;
+    width: 7cm;
+    font-size: 38px;
+  }
+  .container {
+    height: 3.5cm;
+    width: 9cm;
+  }
+}
+@media only screen and (min-width: 361px) and (max-width: 412px) {
+  p {
+    font-size: 40px;
+    position: absolute;
+    bottom: 560px;
+  }
+  .showTime {
+    height: 4cm;
+    width: 8cm;
+    font-size: 40px;
+  }
+  .container {
+    height: 4.8cm;
+    width: 8.2cm;
+  }
+}
+@media only screen and (min-width: 413px) and (max-width: 600px) {
+  p {
+    font-size: 50px;
+    position: absolute;
+    bottom: 560px;
+  }
+  .showTime {
+    height: 5cm;
+    width: 7cm;
+    font-size: 42px;
+  }
+  .container {
+    height: 6cm;
+    width: 10cm;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  p {
+    font-size: 50px;
+    position: absolute;
+    bottom: 600px;
+  }
+  .showTime {
+    height: 5.3cm;
+    width: 11cm;
+    font-size: 60px;
+  }
+  .container {
+    height: 6.5cm;
+    width: 11.5;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1400px) {
+  p {
+    font-size: 70px;
+    position: absolute;
+    bottom: 700px;
+  }
+  .showTime {
+    height: 6cm;
+    width: 13cm;
+    font-size: 73px;
+  }
+  .container {
+    height: 8.5cm;
+    width: 14cm;
+  }
+}
+@media only screen and (min-width: 1401px) and (max-width: 2001px) {
+  p {
+    font-size: 80px;
+    position: absolute;
+    bottom: 710px;
+  }
+  .showTime {
+    height: 7cm;
+    width: 14cm;
+    font-size: 80px;
+  }
+  .container {
+    height: 9.5cm;
+    width: 15cm;
+  }
+}
